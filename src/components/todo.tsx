@@ -255,13 +255,13 @@ const Path2 = styled.path`
   line-height: 1;
 `;
 const Card2 = styled.div`
-//   border-style: dashed;
-//   border-radius: 6px;
-//   border: 1px solid #e1e4e8;
-//   cursor: pointer;
-//   font-size: inherit;
-//   overflow: visible;
-//   box-sizing: border-box;
+  //   border-style: dashed;
+  //   border-radius: 6px;
+  //   border: 1px solid #e1e4e8;
+  //   cursor: pointer;
+  //   font-size: inherit;
+  //   overflow: visible;
+  //   box-sizing: border-box;
 `;
 const AddCard = styled.button`
   font-weight: 600;
@@ -274,9 +274,9 @@ const AddCard = styled.button`
   vertical-align: top;
   background-color: #fff;
   color: #586069;
-  border-style: dashed;
+  border-style: dashed !important;
   border-radius: 6px;
-//   border: 1px solid #e1e4e8;
+    border: 1px solid #e1e4e8;
   cursor: pointer;
   font-size: inherit;
   overflow: visible;
